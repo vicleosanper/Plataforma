@@ -1,0 +1,42 @@
+/* SearchBar.css */
+
+.mb-4 {
+    margin-bottom: 20px; /* Puedes ajustar el espacio inferior según tus preferencias */
+  }
+  
+  /* Estilo para la entrada de texto */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d6dadc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Estilo para el marcador de posición */
+  .form-control::placeholder {
+    color: #999;
+  }
+  
+  /* Estilo para enfocar la entrada de texto */
+  .form-control:focus {
+    border-color: #007185;
+    box-shadow: 0 0 5px rgba(0, 113, 133, 0.5);
+    outline: none;
+  }
+  
+  /* Estilo para el botón de búsqueda (opcional) */
+  .search-button {
+    background-color: #007185;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #005c6b;
+  }
+  

@@ -1,0 +1,61 @@
+/* CSS */
+
+/* Agrega margen izquierdo solo al primer elemento de cada fila */
+.product-list .product:nth-child(3n + 1) {
+  margin-left: 0; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; /* Distribuye elementos horizontalmente */
+  }
+  
+  
+  .product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Para 3 elementos por fila */
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .product .price {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .product .add-to-cart {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product .add-to-cart:hover {
+    background-color: #e68a00;
+  }
+  
