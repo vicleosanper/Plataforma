@@ -10,7 +10,7 @@ function App() {
     const [currentPage, setCurrentPage] = useState(1);
 
     // Definir el número total de páginas (esto podría venir de tus datos)
-    const totalPages = 10; // Reemplaza esto con el valor correcto
+    const totalPages = 2; // Reemplaza esto con el valor correcto
   
     // Función para cambiar de página
     const handlePageChange = (pageNumber) => {

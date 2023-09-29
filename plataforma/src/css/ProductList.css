@@ -25,6 +25,8 @@
   
   .product img {
     max-width: 100%;
+    max-height: 200px; /* Establece la altura máxima que desees */
+    width: auto;
     height: auto;
   }
   

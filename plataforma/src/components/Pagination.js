@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/Pagination.css';
 
 export const Pagination = ({ currentPage, totalPages, onPageChange }) => {
+  
   const pageNumbers = [];
 
   // Rellena la matriz de números de página
