@@ -92,30 +92,30 @@ const products = [
   const [filteredProducts, setFilteredProducts] = useState(products); 
   const [selectedCategory, setSelectedCategory] = useState('all');
 
-   // FUNCION PARA FILTRAR PRODUCTOS
   const handleSearch = (searchTerm, selectedCategory) => {
     // Filtrar productos en función del término de búsqueda y la categoría seleccionada
     const filtered = products.filter((product) => {
       const productName = product.name.toLowerCase();
       const searchTermLowerCase = searchTerm.toLowerCase();
       const searchMatch = productName.includes(searchTermLowerCase);
-
+  
       if (selectedCategory === 'all') {
         return searchMatch;
       } else {
         return searchMatch && product.category === selectedCategory;
       }
     });
-
+  
     // Actualizar el estado de filteredProducts con los productos filtrados
     setFilteredProducts(filtered);
-
+  
     // Actualizar la categoría seleccionada
     setSelectedCategory(selectedCategory);
-
+  
     // Restablecer currentPage a 1 para mostrar resultados desde la primera página
     setCurrentPage(1);
   };
+  
   
 
   //FUNCIONES PARA LA SELECCION DEL PRODUCTO

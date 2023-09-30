@@ -9,7 +9,7 @@ export const SearchBar = ({ categories, onSearch }) => {
   const handleSearchClick = () => {
     onSearch(searchTerm, selectedCategory);
   };
-
+  
   return (
     <div className="search-bar">
       <div className="logo">
