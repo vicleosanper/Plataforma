@@ -1,42 +1,35 @@
-/* SearchBar.css */
 
-.mb-4 {
-    margin-bottom: 20px; /* Puedes ajustar el espacio inferior según tus preferencias */
-  }
-  
-  /* Estilo para la entrada de texto */
-  .form-control {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #d6dadc;
-    border-radius: 3px;
-    font-size: 16px;
-  }
-  
-  /* Estilo para el marcador de posición */
-  .form-control::placeholder {
-    color: #999;
-  }
-  
-  /* Estilo para enfocar la entrada de texto */
-  .form-control:focus {
-    border-color: #007185;
-    box-shadow: 0 0 5px rgba(0, 113, 133, 0.5);
-    outline: none;
-  }
-  
-  /* Estilo para el botón de búsqueda (opcional) */
-  .search-button {
-    background-color: #007185;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .search-button:hover {
-    background-color: #005c6b;
-  }
-  
+/* Estilo para la barra de navegación */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5; /* Color de fondo de la barra de búsqueda */
+  padding: 6px; /* Espaciado interno reducido */
+  border: 1px solid #ddd; /* Borde */
+  border-radius: 4px; /* Bordes redondeados */
+  max-height: 40px; /* Altura máxima de la barra de navegación */
+  overflow: hidden; /* Ocultar contenido excedente */
+}
+
+.logo {
+  flex: 0 0 auto; /* El logotipo no se estira */
+  margin-right: 10px; /* Espacio entre el logotipo y el campo de búsqueda */
+}
+
+.logo img {
+  max-height: 60px; /* Tamaño máximo de la imagen del logo */
+}
+
+.search-input {
+  flex: 1; /* El campo de búsqueda ocupa todo el espacio restante */
+}
+
+/* Estilos para el campo de búsqueda (puedes personalizarlos) */
+.form-control {
+  width: 100%;
+  padding: 4px; /* Espaciado interno reducido */
+  border: none;
+  outline: none;
+  font-size: 14px; /* Tamaño de fuente reducido */
+  background: transparent;
+}
