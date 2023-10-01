@@ -47,3 +47,4 @@ export const SearchBar = ({ categories, onSearch }) => {
 export default SearchBar;
 
 
+

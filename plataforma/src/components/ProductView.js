@@ -14,8 +14,11 @@ const ProductView = ({ productInfo, onBack }) => {
         <h1 className="product-title">{productInfo.name}</h1>
         <p className="product-description">{productInfo.description}</p>
         <p className="product-price">{productInfo.price}</p>
-        <button className="add-to-cart" onClick={onBack}>
+        <button className="boton" onClick={onBack}>
           Regresar
+        </button>
+        <button className="boton" onClick={onBack}>
+          Comprar
         </button>
       </div>
     </div>

@@ -38,18 +38,21 @@
     margin-top: 10px;
   }
   
-  .add-to-cart {
-    background-color: #ff9900;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
-  }
+  /* Estilo para los botones */
+.boton{
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px; /* Agrega margen inferior para separar los botones */
+  margin-left: 10px; /* Margen izquierdo para los botones */
+}
+
   
-  .add-to-cart:hover {
+  .boton:hover {
     background-color: #e68a00;
   }
   
